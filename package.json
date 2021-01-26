@@ -1,0 +1,23 @@
+{
+  "name": "mongo-graphql-lts",
+  "version": "1.0.0",
+  "private": true,
+  "license": "wtfpl",
+  "author": {
+    "name": "Ugurcan Dede"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "dependencies": {
+    "chalk-animation": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^7.0.2",
+    "graphql-yoga": "^1.18.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "nodemon": "^2.0.7"
+  }
+}
