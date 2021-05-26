@@ -15,10 +15,16 @@ type RootQuery {
 
 type RootMutation {
   createUser(user:CreateUserInput): User!
+  loginUser(email: String!, password: String!): User!
 }
 
 input CreateUserInput {
   name: String!
+  email: String!
+  password: String!
+}
+
+input LoginUserInput {
   email: String!
   password: String!
 }

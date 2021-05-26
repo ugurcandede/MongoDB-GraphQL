@@ -24,7 +24,7 @@ type RootMutation {
 }
 
 type RootSubscription {
-  post: PostSubscriptionPayload!
+  post: Post!
 }
 
 type PostSubscriptionPayload {
